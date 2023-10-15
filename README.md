@@ -58,4 +58,4 @@
 - [송지빈](https://github.com/jibin86) |  sjbpsh1@sookmyung.ac.kr
 - [조민주](https://github.com/MIN-JU-CHO) | ehdnf99@sookmyung.ac.kr
 - (~10/4)[홍효주](https://github.com/HongHyoJu) | hyojuhong1201@gmail.com
-- (10/5~) 김서영
+- (10/5~) [김서영](https://github.com/seoyeong98) | youngseogimkk@gmail.com
