@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-10816-숫자-카드-2-파이썬-C
+# 실행 시간: 860ms 메모리: 118520KB
 import sys
 input = sys.stdin.readline
 
