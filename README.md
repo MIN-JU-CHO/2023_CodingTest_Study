@@ -46,10 +46,10 @@
 | 2023.10.04 | 1992 | 쿼드트리 | [분할정복](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5) | [백준 문제 링크](https://www.acmicpc.net/problem/1992) |
 | 2023.10.11 | 1780 | 종이의 개수 | [분할정복](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5) | [백준 문제 링크](https://www.acmicpc.net/problem/1780) |
 | 2023.10.11 | 1629 | 곱셈 | [분할정복](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EB%B6%84%ED%95%A0%20%EC%A0%95%EB%B3%B5) | [백준 문제 링크](https://www.acmicpc.net/problem/1629) |
-| 2023.10.18 | 10816 | 숫자 카드 2 | 이분 탐색 | [백준 문제 링크](https://www.acmicpc.net/problem/10816) |
-| 2023.10.18 | 2110 | 공유기 설치 | 이분 탐색 | [백준 문제 링크](https://www.acmicpc.net/problem/2110) |
-| 2023.11.08 | 1654 | 랜선 자르기 | 이분 탐색 | [백준 문제 링크](https://www.acmicpc.net/problem/1654) |
-| 2023.11.08 | 1300 | K번째 수| 이분 탐색 | [백준 문제 링크](https://www.acmicpc.net/problem/1300) |
+| 2023.10.18 | 10816 | 숫자 카드 2 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/10816) |
+| 2023.10.18 | 2110 | 공유기 설치 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2110) |
+| 2023.11.08 | 1654 | 랜선 자르기 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1654) |
+| 2023.11.08 | 1300 | K번째 수| [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1300) |
 
 <br/>
   
