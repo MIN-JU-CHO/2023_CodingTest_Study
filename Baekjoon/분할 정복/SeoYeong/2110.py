@@ -22,6 +22,7 @@ def deprecated(N, C, house):
     ans = bs(distance, C)
     print(ans)
 
+import sys
 def can_install_router(house: list, distance: int, C: int):
     cnt = 1 # 첫 번째 집에는 공유기 일단 무조건 설치
     last_installed = house[0]
@@ -47,9 +48,7 @@ def find_max_distance(house: list, C: int):
 
 
 N,C = map(int, input().split())
-house = []
-for _ in range(N):
-    house.append(int(input()))
+house = [int(sys.stdin.readline()) for _ in range(N)]
 house.sort()
 ans = find_max_distance(house, C)
 print(ans)
