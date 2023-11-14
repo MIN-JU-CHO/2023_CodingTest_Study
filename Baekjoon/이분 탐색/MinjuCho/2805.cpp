@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-2805-나무-자르기-C-파이썬
+// 실행 시간: 244ms 메모리: 9044KB
 #include <stdio.h>
 #include <vector>
 #include <algorithm>

@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-2805-나무-자르기-C-파이썬
+# 실행 시간: 4636ms 메모리: 143264KB
 import sys
 input = sys.stdin.readline
 N, M = map(int, input().split())
