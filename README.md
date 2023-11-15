@@ -50,6 +50,8 @@
 | 2023.10.18 | 2110 | 공유기 설치 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2110) |
 | 2023.11.08 | 1654 | 랜선 자르기 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1654) |
 | 2023.11.08 | 1300 | K번째 수| [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1300) |
+| 2023.11.15 | 2805 | 나무 자르기 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2805) |
+| 2023.11.15 | 12015 | 가장 긴 증가하는 부분 수열 2 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/12015) |
 
 <br/>
   
