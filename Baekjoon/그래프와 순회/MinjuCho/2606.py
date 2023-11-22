@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-2606-바이러스-파이썬-C
+# 실행 시간: 104ms 메모리: 37268KB
 from queue import deque
 N = int(input())
 M = int(input())
