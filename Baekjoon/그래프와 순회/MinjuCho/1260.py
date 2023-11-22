@@ -1,3 +1,5 @@
+# 문제 풀이 링크 : https://velog.io/@cuppizza/백준-1260-DFS와-BFS-파이썬-C
+# 실행 시간: 600ms 메모리: 37864KB
 from queue import deque
 N, M, V = map(int, input().split())
 graph = [[] for _ in range(N+1)]
