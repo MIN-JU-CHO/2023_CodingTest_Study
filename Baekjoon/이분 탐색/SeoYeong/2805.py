@@ -6,9 +6,10 @@ def bs(trees: list, M: int):
         blocks = sum(x-mid for x in trees if x>=mid)
         if blocks >= M:
             l = mid + 1
+            answer = mid
         else:
             r = mid - 1
-    print(r)
+    print(answer)
 # N, M = map(int, input().split()) # 나무 수, 필요한 나무 길이
 # trees = [int(input()) for _ in range(N)] # 나무 길이들
 
@@ -23,7 +24,7 @@ def bs(trees: list, M: int):
 # N, M, trees = 5, 2000000000, [900000000, 900000000, 900000000, 900000000, 900000000]#500000000
 # N, M, trees = 1, 1000000000, [1000000000] #0
 # N, M, trees = 1, 1, [1000000000] #999999999
-# N, M, trees = 6, 12, [19, 9, 18, 20, 17, 8] #15
-N, M, trees = 5, 14, [4, 22, 10, 16, 36] #22
+N, M, trees = 6, 12, [19, 9, 18, 20, 17, 8] #15
+# N, M, trees = 5, 14, [4, 22, 10, 16, 36] #22
 
 bs(trees, M)
