@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-1012-유기농-배추-C-파이썬
+// 실행 시간: 4ms 메모리: 2024KB
 #include<iostream>
 #include<vector>
 #include<queue>

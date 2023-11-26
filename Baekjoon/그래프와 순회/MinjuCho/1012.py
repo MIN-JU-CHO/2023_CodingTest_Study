@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1012-유기농-배추-C-파이썬
+# 실행 시간: 120ms 메모리: 37872KB
 from queue import deque
 import sys
 dx = [-1, 1, 0, 0]
