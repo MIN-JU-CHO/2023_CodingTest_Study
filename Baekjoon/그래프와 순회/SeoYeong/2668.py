@@ -11,7 +11,7 @@ def is_in_range(x: int, y: int) -> bool:
     return False
 
 # visited : graph에 -1 표시
-def search_land(graph: list, x: int, y: int) -> list:
+def search_land(graph: list, lettace: list, x: int, y: int) -> list:
     q = deque([(x, y)])
     four_direction = [[-1, 0, 1, 0],
                       [0, -1, 0, 1]]
@@ -45,7 +45,7 @@ for _ in range(test_case):
 
     for (i, j) in lettace_location:
         if graph[i][j] == 1:
-            graph = search_land(graph, i, j)
+            graph, lettace_location = search_land(graph, lettace_location, i, j)
             insect += 1
             # _print(graph)
 
