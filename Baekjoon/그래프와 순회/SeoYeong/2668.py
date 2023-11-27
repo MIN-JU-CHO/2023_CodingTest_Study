@@ -31,9 +31,11 @@ for _ in range(test_case):
     print(m, n, k)
     graph = [[0 for _ in range(m)] for _ in range(n)]
 
+    lettace_location = []
     for _ in range(k):
         y, x = map(int, input().split())
         graph[x][y] = 1
+        lettace_location.append((x, y))
     
     insect = 0
 
@@ -41,12 +43,11 @@ for _ in range(test_case):
         print(str(sum(sum(graph, []))))
         pass
 
-    for i in range(n):
-        for j in range(m):
-            if graph[i][j] == 1:
-                graph = search_land(graph, i, j)
-                insect += 1
-                # _print(graph)
+    for (i, j) in lettace_location:
+        if graph[i][j] == 1:
+            graph = search_land(graph, i, j)
+            insect += 1
+            # _print(graph)
 
     # _print(graph)
     print(insect)
