@@ -54,6 +54,10 @@
 | 2023.11.15 | 12015 | 가장 긴 증가하는 부분 수열 2 | [이분 탐색](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/12015) |
 | 2023.11.22 | 2606 | 바이러스 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2606) |
 | 2023.11.22 | 1260 | DFS와 BFS | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1260) |
+| 2023.11.29 | 2667 | 단지 번호 붙히기 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2667) |
+| 2023.11.29 | 1012 | 유기농배추 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1012) |
+| 2023.12.06 | 7562 | 나이트의 이동 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/7562) |
+| 2023.12.06 | 7576 | 토마토 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/7576) |
 
 
 <br/>
