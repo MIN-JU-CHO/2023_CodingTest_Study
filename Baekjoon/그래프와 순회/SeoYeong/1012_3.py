@@ -9,6 +9,18 @@ def dfs(x: int, y: int):
             dfs(nx, ny)
     return -1
 
+# dfs with stack
+def dfs_stack(x, y):
+    four_direction = [[-1, 0, 1, 0],
+                      [0, -1, 0, 1]]
+    stack = [(x, y)]
+    while stack:
+        (sx, sy) = stack.pop()
+        for i in range(4):
+            nx, ny = sx + four_direction[0][i], sy + four_direction[1][i]
+            if (0 <= nx < n) and (0 <= ny < m) and graph[nx][ny] == 1:
+                graph[nx][ny] = 0
+                stack.append((nx, ny))
 
 test_case = int(input())
 for _ in range(test_case):
@@ -27,7 +39,7 @@ for _ in range(test_case):
     for x in range(n):
         for y in range(m):
             if graph[x][y] == 1:
-                dfs(x, y)
+                dfs_stack(x, y)
                 insect += 1
 
     print(insect)
