@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-2667-단지번호붙이기-파이썬-C
+// 실행 시간: 12ms 메모리: 2028KB
 #include <iostream>
 #include <vector>
 #include <queue>

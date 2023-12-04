@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-2667-단지번호붙이기-파이썬-C
+# 실행 시간: 96ms 메모리: 37048KB
 # 1인 좌표만 따로 기록, DFS, 방문한 좌표는 단지수+1로 만들기, 단지 수는 변수 따로
 from queue import deque
 import sys
@@ -47,7 +49,7 @@ houses.sort()
 for house in houses:
     print(house)
 
-
+# 실행 시간: 96ms 메모리: 37872KB
 # 모든 좌표 검색, BFS, 방문한 좌표는 0으로 만들기, 단지 수는 배열 길이로
 from queue import deque
 import sys
