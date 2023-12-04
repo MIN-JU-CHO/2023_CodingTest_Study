@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-7562-나이트의-이동-파이썬-C
+# 실행 시간: 1292ms 메모리: 36996KB
 from queue import deque
 import sys
 input = sys.stdin.readline

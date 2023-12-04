@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-7562-나이트의-이동-파이썬-C
+// 실행 시간: 24ms 메모리: 1496KB
 #include <vector>
 #include <queue>
 #include <stdio.h>
