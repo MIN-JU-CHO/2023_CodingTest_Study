@@ -1,5 +1,5 @@
-
-
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-7576-토마토-C-파이썬
+// 실행 시간: 120ms 메모리: 9700KB
 #include <queue>
 #include <vector>
 #include <stdio.h>
@@ -84,7 +84,7 @@ int main(void)
 }
 
 
-
+// 실행 시간: 124ms 메모리: 13192KB
 
 #include <vector>
 #include <stdio.h>
