@@ -4,7 +4,7 @@ def move_night(n, start_x, start_y, end_x, end_y):
     move = [(-2, -1), (-1, -2), (-2, 1), (-1, 2), 
             (1, -2), (2, -1), (1, 2), (2, 1)]
     q = deque([(start_x, start_y, 0)])
-    visited = [(start_x, start_y)]
+    visited = set([(start_x, start_y)])
 
     while q:
         sx, sy, d = q.popleft()
@@ -14,7 +14,7 @@ def move_night(n, start_x, start_y, end_x, end_y):
         for dx, dy in move:
             nx, ny = sx + dx, sy + dy
             if 0 <= nx < n and 0 <= ny < n and (nx, ny) not in visited:
-                visited.append((nx, ny))
+                visited.add((nx, ny))
                 q.append((nx, ny, d+1))
             
 
