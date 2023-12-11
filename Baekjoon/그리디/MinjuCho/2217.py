@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-2217-로프-C-파이썬-그리디-정렬
+# 실행 시간: 140ms 메모리: 35364KB
 import sys
 input = sys.stdin.readline
 n = int(input().strip())

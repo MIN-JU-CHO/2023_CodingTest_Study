@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-2217-로프-C-파이썬-그리디-정렬
+// 실행 시간: 36ms 메모리: 2412KB
 #include <iostream>
 #include <vector>
 #include <algorithm>
