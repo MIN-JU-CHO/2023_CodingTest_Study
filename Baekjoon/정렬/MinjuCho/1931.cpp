@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-1931-회의실-배정-파이썬-C-그리디-정렬
+// 실행 시간: 36ms 메모리: 4312KB
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
