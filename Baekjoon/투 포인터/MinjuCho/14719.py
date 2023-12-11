@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-14719-빗물-C-투-포인터
+# 실행 시간: 44ms 메모리: 31120KB
 import sys
 input = sys.stdin.readline
 h, w = map(int, input().strip().split())
