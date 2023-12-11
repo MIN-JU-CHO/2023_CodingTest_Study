@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1806-부분합-C-투-포인터
+# 실행 시간: 144ms 메모리: 42204KB
 import sys
 input = sys.stdin.readline
 n, s = map(int, input().strip().split())

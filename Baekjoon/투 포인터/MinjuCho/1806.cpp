@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-1806-부분합-C-투-포인터
+// 실행 시간: 32ms 메모리: 2412KB
 #include<vector>
 #include<iostream>
 #include<algorithm>
@@ -40,7 +42,7 @@ int main(void)
 	cout << result;
 }
 
-/* �̺�Ž�� Ǯ��, ���� 
+/* 이분탐색 풀이, 실패
 int main(void)
 {
 	int n, s;
