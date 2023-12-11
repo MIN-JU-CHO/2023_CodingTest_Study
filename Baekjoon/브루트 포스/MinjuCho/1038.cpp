@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-1038-감소하는-수-C-브루트-포스
+// 실행 시간: 0ms 메모리: 2020KB
 #include<iostream>
 #include<queue>
 
