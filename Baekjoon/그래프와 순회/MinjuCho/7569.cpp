@@ -1,3 +1,4 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-7569-토마토-C-파이썬
 // 실행 시간: 176ms 메모리: 12140KB
 #include <vector>
 #include <stdio.h>

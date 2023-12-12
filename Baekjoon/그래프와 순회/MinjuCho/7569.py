@@ -1,3 +1,4 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-7569-토마토-C-파이썬
 # 방문 여부 따로 저장 X, 저장된 거리값으로 방문 여부 확인 -> 실행 시간 및 메모리 절약
 # 실행 시간 : 3840ms 메모리: 52860KB
 from queue import deque
