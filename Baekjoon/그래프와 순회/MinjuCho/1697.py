@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1697-숨바꼭질-C-파이썬
+# 실행 시간: 196ms 메모리: 40692KB
 from queue import deque
 n, k = map(int, input().split())
 position = [-1 for _ in range(100001)]

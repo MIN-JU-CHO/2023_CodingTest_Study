@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-1697-숨바꼭질-C-파이썬
+// 실행 시간: 0ms 메모리: 2292KB
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -37,7 +39,7 @@ int main(void)
         }
     }
 }
-
+// 실행 시간: 0ms 메모리: 2292KB
 #include<iostream>
 #include<queue>
 
