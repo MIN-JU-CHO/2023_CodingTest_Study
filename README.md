@@ -58,6 +58,10 @@
 | 2023.11.29 | 1012 | 유기농배추 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1012) |
 | 2023.12.06 | 7562 | 나이트의 이동 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/7562) |
 | 2023.12.06 | 7576 | 토마토 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/7576) |
+| 2023.12.13 | 7569 | 3차원 토마토 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/7569) |
+| 2023.12.13 | 1697 | 숨바꼭질 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/1697) |
+| 2023.12.20 | 2178 | 미로 탐색 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/2178) |
+| 2023.12.20 | 16928 | 뱀과 사다리 게임 | [그래프와 순회](https://github.com/DyeonPark/2023_CodingTest_Study/tree/main/Baekjoon/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89) | [백준 문제 링크](https://www.acmicpc.net/problem/16928) |
 
 
 <br/>
