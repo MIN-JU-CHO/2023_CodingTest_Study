@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-16928-뱀과-사다리-게임-C-파이썬-BFS-최단거리
+// 실행 시간: 0ms 메모리: 2028KB
 #include <map>
 #include <queue>
 #include <vector>

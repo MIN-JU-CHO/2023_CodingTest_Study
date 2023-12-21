@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-16928-뱀과-사다리-게임-C-파이썬-BFS-최단거리
+# 실행 시간: 100ms 메모리: 36888KB
 from queue import deque
 import sys
 input = sys.stdin.readline
