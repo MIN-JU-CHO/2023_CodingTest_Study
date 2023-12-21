@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-2178-미로-탐색-C-파이썬-BFS-최단거리
+# 실행 시간: 112ms 메모리: 37904KB
 from queue import deque
 import sys
 input = sys.stdin.readline
