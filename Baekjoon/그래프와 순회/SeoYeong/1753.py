@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 def dijkstra():
     import heapq 
     graph = [[] for _ in range(v+1)]
@@ -50,7 +53,7 @@ def initial_approach():
 
 
 v, e = map(int, input().split())
-inf = 11*(v-1)+1 # w 최댓값 10, 경로가 모든 노드를 거쳐서 오는 최대 경로 케이스를 고려하면 최댓값은 11*(v-1)
+inf = int(1e9)
 start = int(input())
 
 dijkstra()
