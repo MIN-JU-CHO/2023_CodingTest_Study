@@ -1,28 +1,26 @@
 def dijkstra():
-    graph = {}
+    import heapq 
+    graph = [[] for _ in range(v+1)]
     for _ in range(e):
         start_v, end_v, w = map(int, input().split())
-        graph[(start_v, end_v)] = w
+        graph[start_v].append([w, end_v])
 
-    spt = [False] * (v+1)
     distance = [inf] * (v+1)
+    hq = []
     distance[start] = 0
+    heapq.heappush(hq, [0, start])
 
-    def min_distance():
-        min = inf
-        for u in range(1, v+1):
-            if distance[u] < min and spt[u] == False:
-                min = distance[u]
-                min_idx = u
-        return min_idx
-    
-    for _ in range(1, v+1):
-        x = min_distance()
-        spt[x] = True
-        for y in range(1, v+1):
-            if (x, y) in graph.keys() and spt[y] == False:
-                distance[y] = min(distance[y], distance[x]+graph[(x, y)])
-        print(x, spt, distance)
+    while hq:
+        current_w, current_v = heapq.heappop(hq) 
+        # ignore the vertex that has bigger weight than the distance has been updated
+        if distance[current_v] < current_w: continue
+        # search the adjacent nodes
+        for next_w, next_n in graph[current_v]:
+            w = next_w + current_w
+            # calculated w is smaller than the previous path value, needs to be updated
+            if w < distance[next_n]:
+                distance[next_n] = w
+                heapq.heappush(hq, [w, next_n])
 
     for i in range(1, v+1):
         if distance[i] == inf: print('INF')
