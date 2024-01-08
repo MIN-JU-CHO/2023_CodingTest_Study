@@ -9,7 +9,7 @@ prefix : https://www.acmicpc.net/problem/
 
 
 ### intermediate
-11722 : 가장 ~한 수열
+https://www.acmicpc.net/problem/11722 : [가장 긴 감소하는 부분수열](./11722.py)
 15468 : 퇴사2 구간에 대한 최소비용 또는 최대 효율 얻기 위한
 1520 : 내리막길
 11066 : 파일 합치기, 한번쯤은 꼭 풀어보기
