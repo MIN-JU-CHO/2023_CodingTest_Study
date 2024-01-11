@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-2206-벽-부수고-이동하기-파이썬-C-BFS-최단거리
+// 실행 시간: 180ms 메모리: 21624KB
 #include <vector>
 #include <queue>
 #include <iostream>
