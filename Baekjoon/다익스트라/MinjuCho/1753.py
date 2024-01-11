@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1753-최단경로-C-파이썬-다익스트라-우선순위-큐
+# 실행 시간: 760ms 메모리: 68564KB
 import heapq
 import sys
 input = sys.stdin.readline
