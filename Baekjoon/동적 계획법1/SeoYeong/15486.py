@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 n = int(input())
 time, profit = [], []
 for _ in range(n):
