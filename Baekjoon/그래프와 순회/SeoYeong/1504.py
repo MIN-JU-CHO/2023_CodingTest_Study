@@ -19,7 +19,7 @@ def dijkstra(start: int):
 
 
 v, e = map(int, input().split())
-inf = 999
+inf = 1e10
 graph = [[] for _ in range(v+1)]
 for _ in range(e):
     x, y, w = map(int, input().split())
@@ -36,5 +36,14 @@ dijkstra(p2)
 
 # 1-> p1 -> p2 -> n : distance[p1][1] + distance[p1][p2] + distance[p1][v]
 # 1-> p2 -> p1 -> n : distance[p2][1] + distance[p1][p2] + distance[p2][v]
-print(min(distance[p1][1] + distance[p1][p2] + distance[p2][v], 
-          distance[p2][1] + distance[p1][p2] + distance[p1][v]))
+start_p1 = distance[p1][1]; start_p2 = distance[p2][1]
+p1_p2 = distance[p1][p2]
+p2_end = distance[p2][v]; p1_end = distance[p1][v]
+
+path1 = [start_p1, p1_p2, p2_end]
+path2 = [start_p2, p1_p2, p1_end]
+
+if inf in path1 and inf in path2:
+    print(-1)
+else:
+    print(min(sum(path1), sum(path2)))
