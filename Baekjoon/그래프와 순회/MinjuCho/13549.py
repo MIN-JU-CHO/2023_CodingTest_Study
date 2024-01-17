@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-13549-숨바꼭질-3-C-파이썬-BFS-최단거리
+# 실행 시간: 180ms 메모리: 41124KB
 from queue import deque
 def teleport(cur, sec):
     while cur<=100000 and visited[cur] == -1:

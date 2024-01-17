@@ -1,4 +1,4 @@
-
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-13549-숨바꼭질-3-C-파이썬-BFS-최단거리
 // C++ 두번째 풀이
 // 실행시간: 0ms 메모리: 1620KB
 #include <stdio.h>
