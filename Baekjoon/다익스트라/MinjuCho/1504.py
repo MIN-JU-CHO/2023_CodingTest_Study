@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1504-특정한-최단-경로-C-파이썬-다익스트라
+# 실행 시간: 588ms 메모리: 4268KB
 import sys
 import heapq
 input = sys.stdin.readline
