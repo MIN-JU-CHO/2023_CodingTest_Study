@@ -2,14 +2,14 @@ import sys
 input = sys.stdin.readline
 
 def floyd():
-    for i in range(n): # i 정점의
-        for j in range(n): # j 정점으로의 최단거리 구할때
-            if i == j : continue
-            for k in range(n): # k 정점을 거쳐갈 때
-                if i == k : continue
-                graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
-                graph[i][k] = min(graph[i][k], graph[i][j]+graph[j][k])
-                graph[j][k] = min(graph[j][k], graph[j][i]+graph[i][k])
+    for i in range(n): # proxy vertex
+        for j in range(n): # start vertex
+            # if i == j : continue
+            for k in range(n): # end vertex
+                # if i == j == k : continue
+                graph[j][k] = min(graph[j][k], graph[j][i] + graph[i][k])
+                # graph[i][k] = min(graph[i][k], graph[i][j]+graph[j][k])
+                # graph[j][k] = min(graph[j][k], graph[j][i]+graph[i][k])
 
 
 n = int(input())
