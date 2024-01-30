@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-1520-내리막-길-C-파이썬-DP-DFS
+# 실행 시간: 148ms 메모리: 43572KB
 import sys
 input = sys.stdin.readline
 d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
