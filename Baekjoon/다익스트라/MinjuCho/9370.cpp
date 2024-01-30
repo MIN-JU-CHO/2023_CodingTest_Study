@@ -1,3 +1,5 @@
+// 문제 풀이 링크: https://velog.io/@cuppizza/백준-9370-미확인-도착지-C-파이썬-다익스트라-최단경로
+// 실행 시간: 48ms 메모리: 2476KB
 #include <stdio.h>
 #include <queue>
 #include <vector>
@@ -56,13 +58,13 @@ int main(void)
 			scanf("%d", &node);
 			terminator.push_back(node);
 		}
+        vector<int> S(n + 1, INF), G(n + 1, INF), H(n + 1, INF);
+        dijkstra(S, s);
+        dijkstra(G, g);
+        dijkstra(H, h);
 		for (int node : terminator)
 		{
 			bool have_direct_path = false;
-			vector<int> S(n + 1, INF), G(n + 1, INF), H(n + 1, INF);
-			dijkstra(S, s);
-			dijkstra(G, g);
-			dijkstra(H, h);
 			if (S[node] == S[g] + G[h] + H[node] || S[node] == S[h] + H[g] + G[node])
 			{
 				have_direct_path = true;

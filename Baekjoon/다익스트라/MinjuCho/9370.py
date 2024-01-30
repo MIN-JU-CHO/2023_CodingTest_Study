@@ -1,3 +1,5 @@
+# 문제 풀이 링크: https://velog.io/@cuppizza/백준-9370-미확인-도착지-C-파이썬-다익스트라-최단경로
+# 실행 시간: 316ms 메모리: 45476KB
 import heapq
 import sys
 input = sys.stdin.readline
